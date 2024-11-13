@@ -26,7 +26,8 @@ console.log(movies);
                     <div className={styles.movies}>
                         {movies.map((movie) =>( 
                             <Movie
-                                key={movie.id} 
+                                key={movie.id}
+                                id={movie.id}
                                 coverimg={movie.medium_cover_image} 
                                 title = {movie.title} 
                                 summary={movie.summary} 
