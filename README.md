@@ -10,6 +10,4 @@ npm install
 npm run start
 ```
 ### Movie-app
-```bash
 https://Sopheaktraleng.github.io/movie-app
-```
